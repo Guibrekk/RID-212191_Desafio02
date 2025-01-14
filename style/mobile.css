@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1047px) {
+    
+    html, body {
+        font-family: Montserrat;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+    }
+    /* GLOBAL CLASSES */
+    .background-primary {
+        background-color: #02A28F;
+        color: white;
+    }
+    
+    .header {
+        padding: 1rem 0rem;
+        min-width: 40vh;
+        border-radius: 0.8rem;
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+        
+    }
+    
+    .header h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding-left: 1rem;
+        
+    }
+    
+    /* FOOTER */
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+    
+    /* HEADER */
+    header {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 1rem;
+        
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    /* MAIN CONTENT */
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: rem;
+        padding: 2.8rem 0.5rem;
+        gap: 2rem;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem
+    }
+    
+    
+    /* POSTS */
+    
+    #populares {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    
+    .post {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        background-color: white;
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        }
+    
+    .post div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        justify-content: center;
+    }
+    
+    .post h4, p{
+        margin: 0;
+    }
+    
+    .post p {
+        color: #616161;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    .post h4 {
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: black;
+    }
+    
+    .main-img {
+        width: auto;
+        padding: 1.5rem 1rem !important;
+        height: 20rem;
+    }
+    
+    .main-img h2 {
+        margin: 0;
+        max-width: 80%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .main-img p {
+        font-size: 1rem;
+        font-weight: 700;
+        max-width: 80%;
+    }
+    
+    .main-img span {
+        font-size: 1rem;
+        max-width: 80%;
+        font-weight: 500;
+    }
+    
+    /* CATEGORIAS */
+    
+    .lista {
+        display: flex;
+        flex-direction: column;
+        list-style:none;
+        gap: 1rem;
+        padding: 0;
+    }
+    
+    .lista li {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .recentes {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .recentes h2 {
+        width: 60%;
+    }
+    .recentes a {
+        font-size: 0.9rem;
+        color: white;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        text-align: center;
+    }
+    
+    .recentes-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+    }
+    
+    .card-text {
+        padding: 1rem;
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    .card h4 {
+        margin: 0;
+        color: #02A28F;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    
+    .card h3 {
+        margin-top: 0.3rem ;
+        margin-bottom: 0.3rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    
+    .card p {
+        margin-bottom: 0.3rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    
+    .card span {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color:#616161;
+    }
+    
+    
+    
+    
+    
+}
